@@ -39,6 +39,6 @@ log = "0.4"
 serde = { version = "1", features = [ "derive" ], optional = true}
 
 [dev-dependencies]
-bevy = { git = ", default-features = false, features = ["x11"]}
+bevy = { git = "https://github.com/bevyengine/bevy", branch = "main", default-features = false, features = ["x11"]}
 approx = "0.5.1"
 glam = { version = "0.21", features = [ "approx" ] }
